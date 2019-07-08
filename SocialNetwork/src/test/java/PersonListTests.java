@@ -17,7 +17,7 @@ public class PersonListTests {
     public void setup() {
         personList = new ArrayList<>();
 
-        Person person1 = new Person("Connor", LocalDate.of(1993, 7, 8),
+        Person person1 = new Person("Connor", LocalDate.of(1993, 7, 29),
                 Person.Sex.MALE, "con@internet.com");
         personList.add(person1);
         Person person2 = new Person("Amanda", LocalDate.of(1990, 9, 2),
@@ -63,7 +63,7 @@ public class PersonListTests {
     @Test
     public void personListSearchTestJuly() {
         String expected = "Name: Connor\n" +
-                "Birthday: 1993-07-08\n" +
+                "Birthday: 1993-07-29\n" +
                 "Gender: MALE\n" +
                 "Email: con@internet.com\n" +
                 "Age: 25\n" +
